@@ -12,23 +12,23 @@
 3. 对于iojs和npm我们建议从 [iojs官网][iojs] 或[国内镜像][iojs-taobao]下载安装包安装。
 
 ### 安装
-克隆本仓库代码
+1. 克隆本仓库代码
 `git clone https://github.com/konce/express-hbs-gulp-boiplate.git`
-然后安装npm
+2. 然后安装npm
 `cd express-hbs-gulp-boiplate; npm install`
 
 ### 启动和本地开发
 #### 启动服务
 1. 目前初稿状态，比较简单，安装supervisor，<br >
-`npm install --global supervisor`
-然后启动服务
+`npm install --global supervisor`<br >
+2. 然后启动服务<br >
 `npm start`
 即使改动后端代码，也不需重新启动服务，supervisor 会为你自动重启服务
 
 #### 本地开发
-`gulp live`, 监听文件变化，也实现动态刷新浏览器功能
+1. `gulp live`, 监听文件变化，也实现动态刷新浏览器功能
     - 无论是scss还是hbs变化，服务会动态编译增量代码和自动刷新浏览器
-`npm run mock`, 监听文件变化，也实现动态刷新浏览器功能
+2. `npm run mock`, 监听文件变化，也实现动态刷新浏览器功能
     - 使用`json-server`, 起了APIs的服务，直接访问`http://localhost:3000`, 即可看到访问的APIs
 
 ## 改进
