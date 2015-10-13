@@ -19,7 +19,7 @@
 
 ### 启动和本地开发
 #### 启动服务
-目前初稿状态，比较简单，安装supervisor，
+1. 目前初稿状态，比较简单，安装supervisor，<br >
 `npm install --global supervisor`
 然后启动服务
 `npm start`
