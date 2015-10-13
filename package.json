@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server/bin/www"
+    "start": "./node_modules/.bin/supervisor ./server/bin/www",
+    "mock": "./node_modules/.bin/json-server --watch db.json"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -22,6 +23,7 @@
     "gulp-jshint": "^1.11.2",
     "gulp-livereload": "^3.8.1",
     "gulp-scss-lint": "^0.3.6",
+    "json-server": "^0.8.1",
     "lodash": "^3.10.1",
     "pngquant": "^0.6.0",
     "pngquant-bin": "^3.0.0"

@@ -5,6 +5,10 @@
 - 热插拔，gulp-livereload，支持开发时，文件变化即更新刷新当前页面
 - 动态监听css文件变化，增量编译变化文件
 - 增加ChangeLog，增加README
+- 简单模拟mock服务
+    - 安装json-server
+    - 模拟文件在`./server/mock`
+    - `npm mock`
 
 ##### v0.0.5
 - 在`Server`层增加`Config`
